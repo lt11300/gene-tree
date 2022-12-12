@@ -8,6 +8,7 @@ import copy
 import random
 import warnings
 from io import StringIO
+
 #基础的树元素
 def _level_traverse(root, get_children):
     Q = collections.deque([root])
